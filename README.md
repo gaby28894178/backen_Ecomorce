@@ -117,7 +117,10 @@ curl.exe -s -X POST http://localhost:4001/api/v1/carritos/checkout \
 - Se añadió ruta raíz `/` en Express que responde `{ status: "ok", baseUrl: "/api/v1" }`.
 - Vuelve a desplegar con `vercel` o `vercel --prod` para aplicar los cambios.
 
-## Repo en GitHub (pasos)
+## Repositorio GitHub
+- URL: `https://github.com/gaby28894178/backen_Ecomorce`
+- Rama principal: `GrupalPrincipal`
+- Remoto configurado: `origin`
 - Inicializa y sube el repo (no incluye `.env` por `.gitignore`):
   - `git init`
   - `git add . && git commit -m "init"`
